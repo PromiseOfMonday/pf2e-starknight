@@ -64,7 +64,6 @@
       }
     }
   },
-  "url": "https://github.com/yoshisman8/Vyk-Homebrew",
-  "manifest": "https://raw.githubusercontent.com/yoshisman8/Vyk-Homebrew/main/module.json",
-  "download": "https://github.com/yoshisman8/Vyk-Homebrew/archive/refs/heads/main.zip"
+  "manifest": "https://github.com/PromiseOfMonday/pf2e-starknight/blob/main/module.json",
+  "download": "https://github.com/PromiseOfMonday/pf2e-starknight/archive/refs/heads/main.zip"
 }
