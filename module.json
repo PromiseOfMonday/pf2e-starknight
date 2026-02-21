@@ -1,0 +1,70 @@
+{
+  "id": "pf2e-starknight",
+  "title": "PF2e - Vyklade & Wyrm's Watch Starknight Class",
+  "description": "<p>Vyklade's Book of Homebrew的Starknight职业，自制自用</p>",
+  "version": "V1.1.1",
+  "authors": [
+    {
+      "name": "SilentSlene",
+      "email": "asheszhang@gmail.com"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.1.0"
+        }
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Starknight",
+      "sorting": "a",
+      "packs": [
+        "starknight"
+      ],
+      "color": null
+    }
+  ],
+  "socket": true,
+  "packs": [
+    {
+      "name": "starknight",
+      "label": "Starknight",
+      "path": "packs/starknight",
+      "type": "Item",
+      "system": "pf2e",
+      "private": false,
+      "flags": {
+
+      }
+    }
+  ],
+  "flags": {
+    "pf2e-starknight": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "starknight": {
+            "label": "星辉骑士",
+            "description": "<p>这表示该能力来自星辉骑士职业。</p>"
+          },
+          "discipline": {
+            "label": "星律",
+            "description": "<p>星辉骑士施展的主要魔法行动即为星律。你只能在辉武唤出且至少有一只手空闲时使用星律。星律特征意味着该动作具有专注、魔法和神秘特征，除非该动作另有说明。</p>"
+          }
+        }
+      }
+    }
+  },
+  "url": "https://github.com/yoshisman8/Vyk-Homebrew",
+  "manifest": "https://raw.githubusercontent.com/yoshisman8/Vyk-Homebrew/main/module.json",
+  "download": "https://github.com/yoshisman8/Vyk-Homebrew/archive/refs/heads/main.zip"
+}
