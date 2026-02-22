@@ -1,0 +1,60 @@
+{
+  "id": "pf2e-starknight",
+  "title": "PF2e - Starknight Class",
+  "version": "1.1.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "description": "Vyklade's Book of Homebrew的Starknight职业，自制自用",
+  "authors": [
+    {
+      "name": "Silent Selene",
+      "email": "asheszhang@gmail.com",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Starknight",
+      "sorting": "a",
+      "packs": [
+        "starknight"
+      ],
+      "color": "#8A2BE2"
+    }
+  ],
+  "packs": [
+    {
+      "name": "starknight",
+      "label": "Starknight",
+      "path": "packs/starknight",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "pf2e-starknight": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "starknight": {
+            "label": "星辉骑士",
+            "description": "<p>这表示该能力来自星辉骑士职业。</p>"
+          },
+          "discipline": {
+            "label": "星律",
+            "description": "<p>星辉骑士施展的主要魔法行动即为星律。你只能在辉武唤出且至少有一只手空闲时使用星律。星律特征意味着该动作具有专注、魔法和神秘特征，除非该动作另有说明。</p>"
+          }
+        }
+      }
+    }
+  },
+  "url": "https://github.com/PromiseOfMonday/pf2e-starknight",
+  "manifest": "https://raw.githubusercontent.com/PromiseOfMonday/pf2e-starknight/refs/heads/main/module.json",
+  "download": "https://github.com/PromiseOfMonday/pf2e-starknight/archive/refs/heads/main.zip"
+}
